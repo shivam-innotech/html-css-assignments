@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    border: none;
+    display: flex;
+}
+
+.main {
+    width: 70%;
+    border: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+
+.mainTitle {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.mainTitle h1 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.mainTitle h5 span {
+    color: blue;
+}
+
+hr {
+    border: 1px solid rgb(243, 241, 241);
+}
+
+.mainPara2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.mainPara2 span{
+    font-size: 12px;
+}
+
+.mainImg {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.mainImg img {
+    width: 100%;
+}
+
+.mainContent {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.mainContent h5 {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.mainContent p {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.side {
+    width: 30%;
+    border: none;
+    height: 100vh;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+
+.searchbox {
+    width: 100%;
+    background-color: rgb(221, 221, 218);
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    border-radius: 5px;
+}
+
+.searchbox h6 {
+    margin-top: 10px;
+}
+
+.searchbox form {
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 10px;
+
+}
+
+.searchbox form input {
+    width: 80%;
+    padding: 3px;
+    border: 1px solid rgb(187, 183, 183);
+
+}
+
+.searchbox form button {
+    background-color: white;
+    border: 1px solid black;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: -2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+
+}
+
+.sidecotent {
+    margin-top: 10px;
+}
+
+.sidecontent1 h5{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.sidecontent1 {
+    background-color: rgb(221, 221, 218);
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sidecontent1 .links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidecontent1 .links {
+    width: 80%;
+
+}
+
+.sidecontent1 a {
+    text-decoration: none;
+    font-size: 12px;
+    color: blue;
+    cursor: pointer;
+}
+
+.sidecontent2 {
+    margin-top: 20px;
+    background-color: rgb(221, 221, 218);
+    padding: 15px;
+    border-radius: 5px;
+    text-align: justify;
+
+}
+.sidecontent2 h5{
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.sidecontent2 p{
+    font-size: 12px;
+}
+.copyright{
+    width: 90%;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.copyright p{
+    font-size: 12px;
+}
+

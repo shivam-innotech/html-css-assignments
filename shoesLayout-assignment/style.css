@@ -1,0 +1,517 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.headerNav{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid rgb(228, 226, 226);
+}
+.links ul{
+    list-style: none;
+    display: flex;
+}
+.links ul li a{
+    text-decoration: none;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.headerNav .searchbox{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.searchbox .logo img{
+width: 20px;
+height: 15px;
+margin-right: 10px;
+margin-top: 3px;
+}
+.searchbox form input{
+    padding: 5px;
+    width: 300px;
+    box-shadow: 1px 1px 1px 2px rgba(0,0,0,0.1) inset;
+    border: none;
+    border-radius: 3px;
+}
+.searchbox form button i{
+    
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(201, 199, 199);
+    
+
+}
+.searchbox form button{
+    border: none;
+    outline: none;
+    margin-left: -20px;
+    background-color: white;
+
+}
+/* container */
+.container{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+.logoContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.shoesLogo img{
+    height: 50px;
+    width: 70px;
+}
+.shoesLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shoesLogo h1 span{
+    color: rgb(14, 13, 13);
+}
+.shoesLogo h1 {
+    color: red;
+    font-weight: 400;
+}
+.logIn{
+    font-size: 13px;
+}
+.logIn a{
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.logIn ul{
+    display: flex;
+}
+.logIn ul li{
+    margin-left: 20px;
+    font-size: 13px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.homeNav{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+.homeLinks{
+    width: 70%;
+    background-color: black;
+    padding: 10px;
+}
+.homeLinks ul{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.homeLinks ul li{
+    list-style: none;
+    
+}
+.homeLinks ul li a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.homeCart{
+    width: 30%;
+    background-color: crimson;
+    padding: 10px;
+}
+.homeCart ul{
+    display: flex;
+    justify-content: space-around;
+}
+.homeCart ul li{
+    list-style: none;
+    margin-right: 10px;
+}
+.homeCart ul li a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+
+}
+.homeImg{
+    width: 100%;
+    background: linear-gradient(to right,rgb(186, 228, 253),white,rgb(142, 208, 247));
+    padding: 50px;
+}
+.headings1 h3{
+    color: red;
+    font-size: 30px;
+}
+.headings1 h1{
+    font-size: 100px;
+}
+.headings2 h5{
+    color: white;
+    background-color: black;
+    display: inline;
+    font-size: 20px;
+
+}
+.headings2 h2{
+    font-size: 40px;
+}
+.headings2 p{
+    color: red;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.headings2{
+    text-align: end;
+}
+.homecontents{
+    width:26%;
+
+}
+/* cardContainer */
+
+.mainContent{
+    display: flex;
+}
+.leftside{
+    width: 70%;
+}
+.rightside{
+    width: 30%;
+}
+.featureBands{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.featureBands h3{
+    color: red;
+    font-size: 16px;
+    font-weight: 600;
+}
+.FeatureCards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    margin-top: 10px;
+    grid-gap: 10px;
+  
+}
+.featureCard{
+    border-radius: 2px;
+    border: 1px solid rgba(107, 106, 106,0.40);
+    background: #ccc; 
+}
+.featureCard img{
+    width: 100%;
+}
+.featureCard hr{
+    border-top: 2px dotted rgb(160, 158, 158);
+    border-bottom: none;
+    width: 90%;
+    margin: auto;
+}
+.featureCard h4{
+    font-size: 12px;
+    padding-top: 3px;
+    padding-bottom: 4px;
+    text-align: center;
+}
+.newBrands h2{
+    color: red;
+    font-size: 16px;
+}
+.brandCardContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-gap: 2px;
+    border: 1px solid rgb(224, 222, 222);
+    padding: 10px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:repeat(3, 1fr);
+    grid-gap: 5px;
+}
+.card{
+    padding: 5px;
+    box-shadow: -1px 11px 19px -17px rgba(0,0,0,1);
+    border-radius: 2px;
+    border: none;
+}
+.card img{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10px;
+    border: 2px solid rgb(224, 222, 222);
+}
+.card p{
+    text-align: justify;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.card ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 6px;
+}
+.card ul li{
+    list-style: none;
+    font-size:15px;
+}
+.card ul li a{
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    padding: 2px;
+    text-decoration: none;
+}
+.kidcards h3 , .mencards h3 ,.womencards h3 {
+    font-size: 15px;
+}
+
+.kidcards h3 span, .mencards h3 span,.womencards h3 span{
+    font-family: 'Cookie', cursive;
+    font-size: 15px;
+    color: rgb(89, 89, 245);
+}
+.rightside{
+    padding-left: 20px;
+}
+.myCart{
+    background-color: rgb(252, 52, 52);
+    color: white;
+    padding: 20px 10px 20px 10px;
+    margin-top: 30px;
+    border-radius: 2px;
+}
+.myCart h6{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.myCart p{
+    font-size: 12px;
+}
+.compareProduct{
+    background-color: rgb(68, 68, 68);
+    color: white;
+    padding: 20px 10px 20px 10px;
+    margin-top: 20px;
+    border-radius: 2px;
+}
+.compareProduct  h6{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.compareProduct p{
+    font-size: 12px; 
+}
+.bestSellers{
+    border: 1px solid rgb(226, 225, 225);
+    margin-top: 20px;
+}
+.sellercards{
+   
+    padding: 10px;
+}
+.sellercards h3{
+    font-size: 16px;
+}
+.sellercards div{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.selcard{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.selcard h4{
+    font-size: 12px;
+}
+.sellercards h5{
+font-size: 12px;
+font-weight: 500;
+}
+.selcard p{
+    font-size: 11px;
+    text-align: justify;
+    font-weight: 400;
+}
+.sellercards hr{
+    border-top: 2px dotted rgb(184, 182, 182);
+    border-bottom: none;
+    
+}
+.popularTags{
+    background-color: rgb(56, 55, 55);
+    color: white;
+    padding: 20px 10px 20px 10px;
+    margin-top: 20px;
+    border-radius: 2px;
+}
+.popularTags h6{
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    
+}
+.popularTags p{
+font-size: 12px;
+}
+.bottomText{
+    width: 100%;
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    text-transform: capitalize;
+}
+.bottomText p{
+font-size: 13px;
+}
+.footer{
+    background: rgba(0, 0, 0,0.8);
+    width: 100%;
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.footerContent{
+    width: 80%;
+    /* position: absolute; */
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.footerContent button{
+    background-color: crimson;
+    padding: 4px;
+    border-radius: 3px;
+    font-size: 15px;
+    color: white;
+    border: none;
+    width: 35px;
+    cursor: pointer;
+}
+.footerContent h3{
+    font-size: 12px;
+    color: white;
+    margin-bottom: 5px;
+}
+.footerContent input{
+    background-color: rgb(26, 24, 24);
+    color: white;
+    padding: 4px;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+}
+.footerContent ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+}
+.footerContent p{
+font-size: 12px;
+color: rgb(189, 189, 183);
+margin-top: 6px;
+font-weight: 500;
+}
+.footerLinks p{
+    color: white;
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+.footerContent ul li{
+    list-style: none;
+}
+.footerContent ul li a{
+    text-decoration: none;
+}
+
+.image {
+    background-color: rgb(255, 145, 0);
+    padding:10px 50px 10px 50px;
+    display: flex;
+    align-items: center;
+}
+.image h3{
+    color: black;
+    font-weight: bold;
+
+}
+.image p{
+    color: black;
+    font-weight: bold;
+}
+.image img{
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}
+.footerSubmenu{
+  
+    width: 100%;
+    margin-top: 20px;
+
+}
+.footerSubmenu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerSubmenu ul li{
+    list-style: none;
+    padding: 0 5px 0 5px;
+    border-right: 1px solid black;
+    font-weight: 500;
+    font-size: 12px;
+}
+.footerSubmenu p{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+    
